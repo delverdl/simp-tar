@@ -14,5 +14,6 @@ int main()
     tar.addFileFromPath(R"(c:\json-out\hs_err_pid31472.log)");
     tar.addFileFromPath(R"(c:\json-out\hs_err_pid40616.log)");
     tar.addFileFromPath(R"(c:\json-out\hs_err_pid52652.log)");
+    
     tar.close();
 }
